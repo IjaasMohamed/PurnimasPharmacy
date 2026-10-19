@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8f8f3" />
+    <meta
+      name="description"
+      content="Explore a considered selection of products at Purnima’s Pharmacy. Better health, brighter tomorrows."
+    />
+    <title>Purnima’s Pharmacy — Better Health, Brighter Tomorrows</title>
+    <link rel="icon" type="image/webp" href="assets/site/purnimas-mark.webp" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="header-inner page-wrap">
+        <a class="brand" href="#top" aria-label="Purnima’s Pharmacy home">
+          <img src="assets/site/purnimas-mark.webp" alt="" width="42" height="48" />
+          <span class="brand-name">
+            <span class="brand-name-primary">Purnima’s</span>
+            <span class="brand-name-secondary">PHARMACY</span>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open navigation menu"
+        >
+          <span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#featured">Featured care</a>
+          <a href="#about">Our approach</a>
+          <a href="#questions">Good to know</a>
+          <a class="nav-cta" href="#featured">
+            Explore products
+            <svg aria-hidden="true" viewBox="0 0 20 20" width="16" height="16">
+              <path d="M4 10h11M10 5l5 5-5 5" />
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero page-wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><span class="eyebrow-mark"></span> Purnima’s Pharmacy</p>
+          <h1 id="hero-title">Care that feels a little <em>more personal.</em></h1>
+          <p class="hero-intro">
+            A considered selection of pharmacy products, with clear details and space for the questions that matter.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#featured">
+              Explore featured care
+              <svg aria-hidden="true" viewBox="0 0 20 20" width="17" height="17">
+                <path d="M4 10h11M10 5l5 5-5 5" />
+              </svg>
+            </a>
+            <a class="text-link" href="#about">A note on care <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-signoff">
+            <span class="signoff-rule"></span>
+            <span>Better health. Brighter tomorrows.</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" data-reveal>
+          <div class="hero-image-frame">
+            <img
+              src="assets/site/activon-hero.webp"
+              alt="Advancis Activon Tube being gently dispensed"
+              width="1160"
+              height="1215"
+              fetchpriority="high"
+            />
+          </div>
+          <div class="image-note" aria-label="Featured product: Advancis Activon Tube">
+            <span class="image-note-symbol" aria-hidden="true">+</span>
+            <span><small>IN FOCUS</small><strong>Advancis Activon Tube</strong></span>
+            <span class="note-arrow" aria-hidden="true">↗</span>
+          </div>
+          <span class="hero-orbit hero-orbit-one" aria-hidden="true"></span>
+          <span class="hero-orbit hero-orbit-two" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <section class="principles" aria-label="What to expect">
+        <div class="principles-inner page-wrap">
+          <p><span class="principle-dot"></span>Thoughtfully presented</p>
+          <p><span class="principle-dot"></span>Clear product details</p>
+          <p><span class="principle-dot"></span>Personal advice matters</p>
+        </div>
+      </section>
+
+      <section class="featured section-pad page-wrap" id="featured" aria-labelledby="featured-title">
+        <div class="section-heading reveal" data-reveal>
+          <div>
+            <p class="eyebrow">A closer look</p>
+            <h2 id="featured-title">Selected products, <em>simply.</em></h2>
+          </div>
+          <p class="section-intro">
+            A few items from the Advancis Activon range. Open a product to see its name and format.
+          </p>
+        </div>
+
+        <div class="product-filters" role="group" aria-label="Filter products by type">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All products <span>03</span></button>
+          <button class="filter-button" type="button" data-filter="skin" aria-pressed="false">Skin care</button>
+          <button class="filter-button" type="button" data-filter="wound" aria-pressed="false">Dressings &amp; tubes</button>
+          <p class="filter-status" aria-live="polite">Showing 3 products</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card reveal" data-reveal data-category="skin">
+            <div class="product-image product-image-cream">
+              <img
+                src="assets/site/manuka-barrier-cream.webp"
+                alt="Advancis Manuka Honey Barrier Cream campaign image"
+                width="600"
+                height="338"
+                loading="lazy"
+              />
+              <span class="product-index">01</span>
+            </div>
+            <div class="product-meta"><span>Skin care</span><span>Advancis Activon</span></div>
+            <h3>Manuka Honey<br />Barrier Cream</h3>
+            <div class="product-bottom">
+              <span class="product-size">25 g</span>
+              <button class="details-button" type="button" data-product="barrier" aria-label="View Manuka Honey Barrier Cream details">
+                <span>Product details</span><span class="details-arrow" aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-reveal data-category="wound">
+            <div class="product-image product-image-tube">
+              <img
+                src="assets/site/activon-tube.webp"
+                alt="Advancis Activon Tube and packaging"
+                width="1600"
+                height="900"
+                loading="lazy"
+              />
+              <span class="product-index">02</span>
+            </div>
+            <div class="product-meta"><span>Manuka honey tube</span><span>Advancis Activon</span></div>
+            <h3>Activon Tube</h3>
+            <div class="product-bottom">
+              <span class="product-size">25 g</span>
+              <button class="details-button" type="button" data-product="tube" aria-label="View Activon Tube details">
+                <span>Product details</span><span class="details-arrow" aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card reveal" data-reveal data-category="wound">
+            <div class="product-image product-image-tulle">
+              <img
+                src="assets/site/activon-tulle.webp"
+                alt="Activon Tulle dressing product image"
+                width="617"
+                height="557"
+                loading="lazy"
+              />
+              <span class="product-index">03</span>
+            </div>
+            <div class="product-meta"><span>Dressing</span><span>Advancis Activon</span></div>
+            <h3>Activon Tulle</h3>
+            <div class="product-bottom">
+              <span class="product-size">Dressing format</span>
+              <button class="details-button" type="button" data-product="tulle" aria-label="View Activon Tulle details">
+                <span>Product details</span><span class="details-arrow" aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <p class="catalog-note">
+          This is a small product showcase, not a live catalogue. Pricing and current availability are not listed here.
+        </p>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="about-inner page-wrap">
+          <div class="about-statement reveal" data-reveal>
+            <p class="eyebrow eyebrow-light">A note on care</p>
+            <h2 id="about-title">Better health.<br /><em>Brighter tomorrows.</em></h2>
+            <span class="about-ornament" aria-hidden="true">
+              <svg viewBox="0 0 84 84" width="84" height="84">
+                <path d="M42 13v58M13 42h58" />
+                <circle cx="42" cy="42" r="27" />
+              </svg>
+            </span>
+          </div>
+          <div class="about-copy reveal" data-reveal>
+            <p class="about-lead">A simple idea at the heart of Purnima’s Pharmacy.</p>
+            <p>
+              Clear information is a good place to begin. For questions about whether a product is right for you, a pharmacist can offer guidance for your circumstances.
+            </p>
+            <a class="about-link" href="#questions">A few helpful answers <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="questions section-pad page-wrap" id="questions" aria-labelledby="questions-title">
+        <div class="questions-heading reveal" data-reveal>
+          <p class="eyebrow">Good to know</p>
+          <h2 id="questions-title">A little more <em>clarity.</em></h2>
+          <p>Useful details, without the guesswork.</p>
+        </div>
+        <div class="question-list reveal" data-reveal>
+          <details>
+            <summary>Can I check prices or availability here?<span aria-hidden="true"></span></summary>
+            <p>Not at the moment. Please confirm current pricing and availability directly with the pharmacy.</p>
+          </details>
+          <details>
+            <summary>Is this a complete product catalogue?<span aria-hidden="true"></span></summary>
+            <p>No. This page highlights a small selection of products and is not a complete catalogue.</p>
+          </details>
+          <details>
+            <summary>Where can I ask for advice about a product?<span aria-hidden="true"></span></summary>
+            <p>Speak with a pharmacist for guidance that takes your individual circumstances into account. Product names and descriptions here are for identification only.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main page-wrap">
+        <a class="brand footer-brand" href="#top" aria-label="Purnima’s Pharmacy, back to top">
+          <img src="assets/site/purnimas-mark-light.webp" alt="" width="42" height="48" loading="lazy" />
+          <span class="brand-name">
+            <span class="brand-name-primary">Purnima’s</span>
+            <span class="brand-name-secondary">PHARMACY</span>
+          </span>
+        </a>
+        <p class="footer-tagline">Better Health <span aria-hidden="true">·</span> Brighter Tomorrows</p>
+        <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+      <div class="footer-bottom page-wrap">
+        <p>© <span id="current-year">2026</span> Purnima’s Pharmacy</p>
+        <p>Product information is for identification only. Ask a pharmacist for personal guidance.</p>
+      </div>
+    </footer>
+
+    <dialog class="product-dialog" id="product-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-inner">
+        <button class="dialog-close" type="button" aria-label="Close product details">
+          <svg aria-hidden="true" viewBox="0 0 20 20" width="20" height="20"><path d="m5 5 10 10M15 5 5 15" /></svg>
+        </button>
+        <div class="dialog-image"><img alt="" width="600" height="500" /></div>
+        <div class="dialog-content">
+          <p class="eyebrow" id="dialog-category">Advancis Activon</p>
+          <h2 id="dialog-title"></h2>
+          <p class="dialog-format" id="dialog-format"></p>
+          <p class="dialog-note">Product information is for identification only. Ask a pharmacist about suitability for your circumstances.</p>
+          <button class="button button-primary dialog-done" type="button">Done</button>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>
